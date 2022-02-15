@@ -3,6 +3,7 @@ import CodeForInterview from './components/CodeForInterview';
 import AllUsers from './components/AllUsers';
 import AddUsers from './components/AddUsers';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NotFound from './components/NotFound';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
           <Route exact path="/" element={<CodeForInterview />} />
           <Route path="/all" element={<AllUsers />} />
           <Route path="/add" element={<AddUsers />} />
+          <Route exact path="*" element={<NotFound />} />
+          
         </Routes>
       </BrowserRouter>
     </div>
