@@ -11,7 +11,7 @@ const useStyles = makeStyles({
 })
 
 const CodeForInterview = () => {
-    const classes = useStyles();
+    const classes = useStyles(); 
 
     return (
         <Box>
