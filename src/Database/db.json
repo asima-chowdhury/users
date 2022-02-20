@@ -29,11 +29,18 @@
       "id": 4
     },
     {
+      "name": "Akila",
+      "username": "akila",
+      "email": "akila@gmail.com",
+      "phone": "0123456",
+      "id": 6
+    },
+    {
       "name": "maisha",
       "username": "maisha",
       "email": "maisha@gmail.com",
-      "phone": "123456",
-      "id": 5
+      "phone": "112233",
+      "id": 7
     }
   ]
 }
