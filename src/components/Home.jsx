@@ -18,7 +18,7 @@ const Home = () => {
 
     return (
         <Box className={classes.component}>
-            <Typography variant='h4' style={{marginBottom: 50}}> Simple React CRUD Application </Typography>
+            <Typography variant='h4' style={{marginBottom: 50}}> Simple React CRUD Application for User</Typography>
             <Box style={{ display: 'flex' }}>
                 <img className={classes.image} src={laptop} alt="laptop" />
                 <img className={classes.image} src={crud} alt="crud" />
