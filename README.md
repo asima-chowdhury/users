@@ -9,6 +9,7 @@ using JSON-Server to store that data in the database.
 
 ## Technology used:
     - React JS
+    - React Router Dom
     - Material UI
     - Netlify Hosting
 
