@@ -1,11 +1,39 @@
 {
-    "users":[
-        {
-            "name" : "Asima",
-            "username" : "asima",
-            "email" : "asima@gmail.com",
-            "phone" : "1234567890",
-            "id" : 1
-        }
-    ]
+  "users": [
+    {
+      "name": "Asima",
+      "username": "asima",
+      "email": "asima@gmail.com",
+      "phone": "1234567890",
+      "id": 1
+    },
+    {
+      "name": "naima",
+      "username": "drnaima",
+      "email": "naima@gmail.com",
+      "phone": "123456",
+      "id": 2
+    },
+    {
+      "name": "Noha",
+      "username": "noha",
+      "email": "noha@gmail.com",
+      "phone": "123456",
+      "id": 3
+    },
+    {
+      "name": "Joha",
+      "username": "joha",
+      "email": "joha@gmail.com",
+      "phone": "123456",
+      "id": 4
+    },
+    {
+      "name": "Doha",
+      "username": "doha",
+      "email": "doha@gmail.com",
+      "phone": "123456",
+      "id": 5
+    }
+  ]
 }

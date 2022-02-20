@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { getUsers } from '../Service/api';
-import { Table, TableHead, TableRow, TableCell, TableBody , makeStyles } from '@material-ui/core';
+import { Table, TableHead, TableRow, TableCell, TableBody, makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles({
-    table:{
+    table: {
         width: '90%',
         margin: '50px 0 0 50px',
     },
-    thead:{
-        '& > *':{
+    thead: {
+        '& > *': {
             background: '#000000',
             color: '#ffffff',
-            fontSize: 20,
+            fontSize: 15,
         }
     },
-    row:{
-        '& > *':{
-            fontSize: 20,
+    row: {
+        '& > *': {
+            fontSize: 15,
         }
     }
 });
@@ -33,7 +33,7 @@ const AllUsers = () => {
 
     const getAllUsers = async () => {
         const response = await getUsers();
-        console.log(response.data);
+        /*console.log(response.data);*/
         setUsers(response.data);
     }
 
