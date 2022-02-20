@@ -28,17 +28,17 @@ const EditUser = () => {
     const classes = useStyles();
     const navigate = useNavigate();
 
-    const {id} = useParams();
+    const { id } = useParams();
 
-    useEffect(()=>{
+    useEffect(() => {
         loadUserData();
-    },[])
+    }, [])
 
-   const loadUserData =async()=>{
-       const response = await getUsers(id);
-       setUser(response.data);
-   }
-    
+    const loadUserData = async () => {
+        const response = await getUsers(id);
+        setUser(response.data);
+    }
+
     const onChangeValue = (e) => {
         console.log(e.target.value, e.target.name);
         setUser({ ...user, [e.target.name]: e.target.value });

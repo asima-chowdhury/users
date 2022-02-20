@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getUsers } from '../Service/api';
 import { Table, TableHead, TableRow, TableCell, TableBody, makeStyles, Button } from '@material-ui/core';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
     table: {

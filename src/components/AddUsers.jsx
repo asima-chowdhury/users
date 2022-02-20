@@ -1,7 +1,7 @@
 import { Button, FormControl, FormGroup, Input, InputLabel, makeStyles, Typography } from '@material-ui/core';
 import React, { useState } from 'react';
 import { addUser } from '../Service/api';
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 const useStyles = makeStyles({
@@ -22,11 +22,11 @@ const initialValues = {
     phone: ''
 }
 
-const AddUsers = () => {
+const AddUser = () => {
     const [user, setUser] = useState(initialValues);
     const { name, username, email, phone } = user;
     const classes = useStyles();
-    const navigate = useNavigate ();
+    const navigate = useNavigate();
 
     const onChangeValue = (e) => {
         console.log(e.target.value, e.target.name);
@@ -64,4 +64,4 @@ const AddUsers = () => {
     );
 };
 
-export default AddUsers;
+export default AddUser;
